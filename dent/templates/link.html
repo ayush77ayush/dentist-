@@ -1,0 +1,40 @@
+{% load static %}
+
+<html>
+<head>
+	<title>Appointment</title>
+
+	<link rel="stylesheet" type="text/css" href="{% static 'css/more.css' %}"
+
+</head>
+<body>
+	
+         <div class="container">
+			 <div class="form">
+			      
+				 <form action="register" method = "POST" >
+					 {% csrf_token %}
+					 <p>First Name</p>
+					 <input type="text" name="first_name" placeholder=" "><br>
+					 <p>Last Name</p>
+					 <input type="text" name="last_name" placeholder=" "><br>
+					 <p>Username</p>
+					 <input type ="text" name ="username" placeholder=" "><br>
+					 <p>Email</p>
+					 <input type="email" name="email" placeholder=" "><br>
+					 <p>Mobile</p>
+                     <input type="tel" name="mobile" placeholder=" "><br>					
+					 <p>Password</p>
+					 <input type="password" name="password1" placeholder=" "><br>
+					 <p>Confirm Password</p>
+					 <input type="password" name="password2" placeholder=" "><br>
+					 <input type="submit"  name =" "  value = "REGISTER">
+
+					 	 
+				 </form>
+			 </div>
+		 </div>
+	
+        
+   </body>
+</html>

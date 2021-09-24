@@ -1,0 +1,57 @@
+body
+{
+    margin:0;
+    padding:0;
+    background: url(../boardimage.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.title
+{
+    text-align: center;
+    padding: 50px 0 20px;
+}
+
+.title h1 {
+
+    margin: 0;
+    padding: 0;
+    color: green;
+    text-transform:uppercase;
+    font-size: 36px;
+}
+
+.container {
+
+    width: 50%;
+    height: 400px;
+    background: #ffffff;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+}
+
+.container .left
+{
+    float: left;
+    width: 50%;
+    height: 400px;
+    background: url(../tooth2.jpg);
+    background-size: 400px;
+    box-sizing: border-box;
+}
+
+.container .right
+{
+    float: right;
+    width: 50%;
+    height: 400px;
+    box-sizing: border_box;
+}
+
+.formBox
+{
+  width: 100%;
+  padding: 80px 40px;
+}
