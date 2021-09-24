@@ -10,6 +10,8 @@ class Patient(models.Model):
            email = models.CharField(max_length = 50 , default = " " , editable = 'false')
            
            password = models.CharField(max_length = 50)
+
+           id = models.AutoField(primary_key=True)
            
            
 
